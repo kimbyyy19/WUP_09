@@ -151,4 +151,8 @@ The best model is length 3 and the width because it has the highest adjusted r s
 
 ### Best Two regressor model
 
+The best two regressor models are length 3 and width the reason for it gave us a the highest adjusted r squared and the squared and the graph placed it as the best model regressor 2 model 
+
+
+
 ## Final Summary Statements
