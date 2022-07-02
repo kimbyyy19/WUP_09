@@ -62,19 +62,91 @@ subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2
 
 ### Best Models
 
-The best model is lenght1,lenght2,lenght3 height anad width.The for is is because has the highest adjected r value, it is the one highest on the y-axis.
+
 
 
 ### Best Two regressor model
+
+
+
+
+
+
+```{r}
+Pike <- filter(All_Fish, Species=="Pike")
+```
+
+
+```{r}
+Pike <-select(Pike,-Species)
+```
+
+
 
 
 ## Pike
 
+```{r}
+regsubsets.out <-
+    regsubsets(Weight ~ .,
+               data = Pike,
+               nbest = 1,       # 1 best model for each number of predictors
+               nvmax = NULL,    # NULL for no limit on number of variables
+               force.in = NULL, force.out = NULL,
+               method = "exhaustive")
+
+summary.out <- summary(regsubsets.out)
+as.data.frame(summary.out$outmat)
+library(car)
+subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2")
+```
+
+
+
+
+
 ### Best Models
+
+The best model is lenght1,lenght2,lenght3 height anad width.The for is is because has the highest adjusted r value, it is the one highest on the y-axis.
+
+
+
 
 ### Best Two regressor model
 
+The best two regressor model is the length1 and length3.The reason for is the graph tells us that it was the best in the 2 gregressor model,shown on the x-axis.
+
+```{r}
+Roach <- filter(All_Fish, Species== "Roach")
+```
+
+```{r}
+Roach <-select(Roach, -Species)
+```
+
+
 ## Roach
+
+```{r}
+regsubsets.out <-
+    regsubsets(Weight ~ .,
+               data = Roach,
+               nbest = 1,       # 1 best model for each number of predictors
+               nvmax = NULL,    # NULL for no limit on number of variables
+               force.in = NULL, force.out = NULL,
+               method = "exhaustive")
+
+summary.out <- summary(regsubsets.out)
+as.data.frame(summary.out$outmat)
+library(car)
+subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2")
+```
+
+
+
+
+
+
 
 ### Best Models
 
