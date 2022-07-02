@@ -62,7 +62,7 @@ subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2
 
 ### Best Models
 
-
+The best model is lenght1,lenght2,lenght3 height anad width.The for is is because has the highest adjected r value, it is the one highest on the y-axis.
 
 
 ### Best Two regressor model
