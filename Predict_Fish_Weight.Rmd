@@ -145,10 +145,9 @@ subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2
 
 
 
-
-
-
 ### Best Models
+
+The best model is length 3 and the width because it has the highest adjusted r squared.It is the furthest upward on the y-axis.
 
 ### Best Two regressor model
 
