@@ -62,7 +62,7 @@ subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2
 
 ### Best Models
 
-
+The best model for Perch are width and height.The reason why it is the highest up on the y-axis.
 
 
 ### Best Two regressor model
