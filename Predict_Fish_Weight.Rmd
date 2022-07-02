@@ -68,7 +68,7 @@ The best model for Perch are width and height.The reason why it is the highest u
 ### Best Two regressor model
 
 
-
+The best two regressor model is height and width.The graph tells us it is the best 2 re gressor model because it is the model places on the graph.
 
 
 
