@@ -156,3 +156,11 @@ The best two regressor models are length 3 and width the reason for it gave us a
 
 
 ## Final Summary Statements
+
+
+I have seen almost a similar result in all graphs ,I have seen width being in every graph and best model.Overall it shows width plays a big factor in measuring the fish as shown in the graphs.
+
+
+
+
+
