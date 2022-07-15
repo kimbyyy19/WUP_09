@@ -73,7 +73,7 @@ The best model for Perch are width and height.The reason why it is the highest u
 
 
 The best two regressor model is height and width.The graph tells us it is the best 2 
-regressor model because it is the model places on the graph.Landing on subset size on 2 and on Y linear 0.9400.
+regressor model because it is the model places on the graph.
 
 
 ## Pike
@@ -118,7 +118,7 @@ The best model is lenght1,lenght2,lenght3 height anad width.The for is is becaus
 
 ### Best Two regressor model
 
-The best two regressor model is the length1 and length3.The reason for is the graph tells us that it was the best in the 2 gregressor model,shown on the x-axis.
+The best two regressor model is the length1 and length3.The reason for is the graph tells us that it was the best in the 2 regressor model,shown on the x-axis.
 
 
 ## Roach
@@ -155,14 +155,13 @@ subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2
 
 ### Best Models
 
-The best model is length 3 and the width because it has the highest adjusted r squared.It is the furthest upward on the y-axis. looking at the date L3 and lenght is on the topof all the other models with being at almost 0.850.
-
+The best model is length 3 and the width because it has the highest adjusted r squared.It is the furthest upward on the y-axis. 
 ### Best Two regressor model
 
-The best two regressor models are length 3 and width the reason for it gave us a the highest adjusted r squared and the squared and the graph placed it as the best model regressor 2 model and adjusted R square is on 0.850. 
+ The best two regressor model is Length3 and Width because it gave us the highest adjusted r squared and the graph placed it as the best model regressor 2 model.
 
 
 
 ## Final Summary Statements
 
-In conclusion we were able to see the two best regressor models for the three types of fishes listed, we can see some similarities and as well some differences. Like for the perch they have the same best regressor as the pike. They both have height and width as their best regressors.As for the differences the roach has length 3 and the perch doesn't have that.
+In conclusion,the best model for determining Perch fish weight is height and width. The best model for determining Pike fish weight is Length1, Length2, Length3, height, and width. The best model for determining Roach fish weight is Lenght3 and width.
